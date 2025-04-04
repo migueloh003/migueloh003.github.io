@@ -204,9 +204,22 @@ html{
     background-color: #1CB698;
     z-index: -1;
     transition: 1s;
+    display: inline-block;
+    text-decoration: none;
 }
 .sobremi button:hover .overlay{
     width: 100%;
+}
+.linkcurriculum{
+    color: #fff;
+    background-color: #1CB698;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 /* SECCION S K I L L S */
 .skills{
